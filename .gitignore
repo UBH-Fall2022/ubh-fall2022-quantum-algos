@@ -1,4 +1,8 @@
+# Ignore my workspace settings
 **/.vscode/settings.json
+
+# Ignore python virtual environments
+**/venv/
 
 # Ignore all angular build output
 # compiled output
@@ -20,7 +24,7 @@
 
 # IDE - VSCode
 **/.vscode/*
-**/!.vscode/settings.json
+# **/!.vscode/settings.json
 **/!.vscode/tasks.json
 **/!.vscode/launch.json
 **/!.vscode/extensions.json
