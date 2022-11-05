@@ -4,6 +4,10 @@
 # Ignore python virtual environments
 **/venv/
 
+# Ignore pycachce files
+**/__pycache__/
+*.pyc
+
 # Ignore all angular build output
 # compiled output
 **/dist
