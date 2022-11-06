@@ -7,7 +7,7 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-color: #cfd8dc99;
+    background-color: black;
     margin: 0;
 }
 
@@ -30,8 +30,8 @@ body {
 
 .parent> :last-child {
     flex-grow: 10;
-    background: #302b2b;
-    background-size: cover;
+    background: radial-gradient(#4E4747, #000000);
+    background-size: repeat(10px, 10px);
     text-align: center;
     overflow: auto;
 }
