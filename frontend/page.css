@@ -91,3 +91,16 @@ a:active {
     color: white;
     text-decoration: none;
 }
+
+ul {
+
+    display: block;
+    text-align: center;
+    list-style: inside;
+    list-style-type: square;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* margin: 1.5rem; */
+  }
+  
