@@ -1,0 +1,30 @@
+.parent {
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+.parent > :first-child {
+    flex-grow: 1;
+    background: black;
+    align-items: stretch;
+
+}
+
+.parent > :last-child {
+    // flex-grow: 10;
+    background: red;
+    height: 100%;
+    // width:100%;
+}
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+    
